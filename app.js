@@ -105,8 +105,7 @@ new Vue({
         isYou: false,
         text: 'BABAAH!!!! Monster critical hits You for ' + damage
       });
-      this.checkWin();
-      
+      this.checkWin();      
     },
     checkWin() {
       if(this.helthMonster <= 0) {    
@@ -125,8 +124,6 @@ new Vue({
         return true;
       };
       return false;
-    },
-
-    
+    },    
   }
 })
